@@ -13,6 +13,11 @@ public class MpesaConfiguration {
     private String consumerSecret;
     private String grantType;
     private String oauthEndpoint;
+    private String shortCode;
+    private String responseType;
+    private String confirmationUrl;
+    private String validationUrl;
+    private String registerUrlEndpoint;
 
     @Override
     public String toString() {
